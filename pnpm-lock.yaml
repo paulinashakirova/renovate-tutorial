@@ -1,0 +1,43 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@date-io/date-fns': 2.10.0
+  '@date-io/moment': 2.10.0
+  commander: 2.20.3
+  lodash: 4.17.20
+
+dependencies:
+  '@date-io/date-fns': 2.10.0
+  '@date-io/moment': 2.10.0
+  commander: 2.20.3
+  lodash: 4.17.20
+
+packages:
+
+  /@date-io/core/2.16.0:
+    resolution: {integrity: sha512-DYmSzkr+jToahwWrsiRA2/pzMEtz9Bq1euJwoOuYwuwIYXnZFtHajY2E6a1VNVDc9jP8YUXK1BvnZH9mmT19Zg==}
+    dev: false
+
+  /@date-io/date-fns/2.10.0:
+    resolution: {integrity: sha512-PxskpYmDAoL4BBGanoVD4SwhpMNFcVZFB8V2W7KATxgQ4m6Koy5FK9Qe1nKp8j9BERW310GT3sdERdNCXq8vuQ==}
+    peerDependencies:
+      date-fns: ^2.0.0
+    dependencies:
+      '@date-io/core': 2.16.0
+    dev: false
+
+  /@date-io/moment/2.10.0:
+    resolution: {integrity: sha512-RvmREFZbMBBUUPU8YqMjSkYewUk6rfxfnw5bR1mFtjyiSibfq2mR30ITo6lnqKk9SvpnorBI8fnmOu+g0hZC6g==}
+    peerDependencies:
+      moment: ^2.24.0
+    dependencies:
+      '@date-io/core': 2.16.0
+    dev: false
+
+  /commander/2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+    dev: false
+
+  /lodash/4.17.20:
+    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
+    dev: false
