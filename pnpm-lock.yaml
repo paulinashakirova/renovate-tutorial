@@ -4,13 +4,13 @@ specifiers:
   '@date-io/date-fns': 2.10.0
   '@date-io/moment': 2.10.0
   commander: 2.20.3
-  lodash: 4.17.20
+  lodash: 4.17.21
 
 dependencies:
   '@date-io/date-fns': 2.10.0
   '@date-io/moment': 2.10.0
   commander: 2.20.3
-  lodash: 4.17.20
+  lodash: 4.17.21
 
 packages:
 
@@ -38,6 +38,6 @@ packages:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: false
 
-  /lodash/4.17.20:
-    resolution: {integrity: sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==}
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
