@@ -1,37 +1,43 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@date-io/date-fns': 2.10.0
-  '@date-io/moment': 2.10.0
+  '@date-io/date-fns': 2.17.0
+  '@date-io/moment': 2.17.0
   commander: 2.20.3
   lodash: 4.17.20
 
 dependencies:
-  '@date-io/date-fns': 2.10.0
-  '@date-io/moment': 2.10.0
+  '@date-io/date-fns': 2.17.0
+  '@date-io/moment': 2.17.0
   commander: 2.20.3
   lodash: 4.17.20
 
 packages:
 
-  /@date-io/core/2.16.0:
-    resolution: {integrity: sha512-DYmSzkr+jToahwWrsiRA2/pzMEtz9Bq1euJwoOuYwuwIYXnZFtHajY2E6a1VNVDc9jP8YUXK1BvnZH9mmT19Zg==}
+  /@date-io/core/2.17.0:
+    resolution: {integrity: sha512-+EQE8xZhRM/hsY0CDTVyayMDDY5ihc4MqXCrPxooKw19yAzUIC6uUqsZeaOFNL9YKTNxYKrJP5DFgE8o5xRCOw==}
     dev: false
 
-  /@date-io/date-fns/2.10.0:
-    resolution: {integrity: sha512-PxskpYmDAoL4BBGanoVD4SwhpMNFcVZFB8V2W7KATxgQ4m6Koy5FK9Qe1nKp8j9BERW310GT3sdERdNCXq8vuQ==}
+  /@date-io/date-fns/2.17.0:
+    resolution: {integrity: sha512-L0hWZ/mTpy3Gx/xXJ5tq5CzHo0L7ry6KEO9/w/JWiFWFLZgiNVo3ex92gOl3zmzjHqY/3Ev+5sehAr8UnGLEng==}
     peerDependencies:
       date-fns: ^2.0.0
+    peerDependenciesMeta:
+      date-fns:
+        optional: true
     dependencies:
-      '@date-io/core': 2.16.0
+      '@date-io/core': 2.17.0
     dev: false
 
-  /@date-io/moment/2.10.0:
-    resolution: {integrity: sha512-RvmREFZbMBBUUPU8YqMjSkYewUk6rfxfnw5bR1mFtjyiSibfq2mR30ITo6lnqKk9SvpnorBI8fnmOu+g0hZC6g==}
+  /@date-io/moment/2.17.0:
+    resolution: {integrity: sha512-e4nb4CDZU4k0WRVhz1Wvl7d+hFsedObSauDHKtZwU9kt7gdYEAzKgnrSCTHsEaXrDumdrkCYTeZ0Tmyk7uV4tw==}
     peerDependencies:
       moment: ^2.24.0
+    peerDependenciesMeta:
+      moment:
+        optional: true
     dependencies:
-      '@date-io/core': 2.16.0
+      '@date-io/core': 2.17.0
     dev: false
 
   /commander/2.20.3:
